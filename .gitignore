@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Environments
+.venv/
+env/
+ENV/
+venv/
+*.env
+
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs / editors
+.vscode/
+*.idea
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Logs
+*.log
+
+# dotenv files
+.env
+.env.*.local
+
+# Byte-compiled / cached files
+*.cache
+*.pkl
+*.pickle
+
+# MyPy / Pylint
+.mypy_cache/
+.pytest_cache/
+.pytype/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Node modules (se estiver usando frontend)
+node_modules/
+
+# LangChain / Chroma / DB caches
+*.sqlite
+chromadb/
