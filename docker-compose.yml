@@ -1,0 +1,7 @@
+docker run -d \
+    --name evolution-api \
+    -p 8080:8080 \
+    -e AUTHENTICATION_API_KEY={EVOLUTION_API_KEY} \
+    -v evolution_store:/evolution/store \
+    -v evolution_instances:/evolution/instances \
+    atendai/evolution-api
